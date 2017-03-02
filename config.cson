@@ -1,34 +1,36 @@
 "*":
-  "atom-terminal": {}
-  "atom-ternjs":
-    useSnippets: true
   core:
-    disabledPackages: [
-      "activate-power-mode"
-      "vim-mode"
-      "fold-lines"
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      ".pioenvs"
+      ".piolibdeps"
+      ".clang_complete"
+      ".gcc-flags.json"
     ]
-    themes: [
-      "atom-material-ui"
-      "atom-dark-syntax"
-    ]
-  editor: {}
+  editor:
+    fontSize: 17
   "exception-reporting":
-    userId: "77e420b4-6654-f917-6e08-bbf76c67f1f8"
+    userId: "49351917-2606-017b-4f50-f4c8f3c1c645"
   "git-plus":
     general:
-      _analyticsUserId: "3fad824a-bb8d-42be-a7b8-edc9fc2f0f05"
-  linter:
-    showErrorInline: false
-  minimap:
-    plugins:
-      pigments: true
-      pigmentsDecorationsZIndex: 0
-  "split-diff":
-    diffWords: true
-    ignoreWhitespace: true
-    leftEditorColor: "red"
-    rightEditorColor: "green"
-    syncHorizontalScroll: true
+      _analyticsUserId: "928e80d5-69c7-45c1-9af0-7aa5da33449d"
+  "highlight-line":
+    enableSelectionBorder: true
+  minimap: {}
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  "platformio-ide-terminal":
+    core:
+      autoRunCommand: "export PATH=/home/ivan/.atom/packages/platformio-ide/penv/bin:/home/ivan/Android/Sdk/platform-tools:/home/ivan/Android/Sdk/tools:/home/ivan/bin:/opt/robomongo/bin:/opt/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6/bin:/opt/mips-4.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"
+  "tool-bar":
+    position: "Left"
+  "tree-view":
+    hideIgnoredNames: true
   welcome:
     showOnStartup: false
